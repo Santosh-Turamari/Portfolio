@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(53, 52, 52);
+}
+nav img{
+    width: 50px;
+    margin-top: 35px;
+    margin-left: 35px;
+
+}
+h1{
+    font-size: 43px;
+    margin-top: -54px;
+    margin-left: 86px;
+    color: red;
+    text-shadow: 2px 1px pink;
+}
+.nav-links{
+    flex: 1;
+    margin-top: -35px;
+    text-align: right;
+    margin-right: 80px;
+
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+color: #fff;
+text-decoration: none;
+font-size: 15px;
+}
+.nav-links ul li :hover{
+    color: red;
+    text-transform: uppercase;
+}
+img{
+    width: 700px;
+    margin-top: -px;
+    margin-left: -100px;
+
+}
+h1.greetings{
+    color: red;
+    font-size: 60px;
+    margin-top:-400px ;
+    text-indent: 550px;
+    text-shadow: none;
+    
+}
+img.hi{
+    width: 140px;
+     float: right;
+     margin-right: 580px;
+     margin-top: -136px;
+}
+
+h2.Name{
+    font-size: 45px;
+    margin-top: 15px;
+    color: blueviolet;
+    text-indent: 629px;
+
+}
+h3.namebelow{
+    color: blue;
+    font-size: 30px;
+    margin-top: 20px;
+    text-indent: 629px;
+}
+/* -----------About----------- */
+#about h1{
+    color: rgb(160, 95, 150);
+    margin-top: 250px;
+    text-shadow: none;
+    margin-left: 55px;
+}
+#about p{
+    color:cadetblue;
+    margin-top: 20px;
+    margin-left: 55px;
+    margin-right: 55px;
+    font-size: 25px;
+    text-align: justify;
+}
+
+/* --------------Education---------- */
+#education h1{
+    text-shadow: none;
+    color: rgb(160, 95, 150);
+    margin-top: 55px;
+    margin-left: 55px;
+}
+#school{
+    margin-top: 50px;
+    color: blue;
+    font-size: 30px;
+    text-shadow: none;
+}
+#puc{
+    margin-top: -30px;
+    color: blue;
+    text-shadow: none;
+    font-size: 30px;
+    margin-left: 600px;
+}
+#be{ margin-top: -30px;
+    color: blue;
+    text-shadow: none;
+    font-size: 30px;
+    margin-left: 1150px;
+}
+
+.school{
+    width: 200px;
+    margin-left: 50px;
+}
+
+.puc{
+    width: 200px;
+    margin-left: 347px;
+}
+
+.be{
+    width: 200px;
+    margin-left: 340px;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+    margin-left: 50px;
+    
+  }
+  
+  div.gallery:hover {
+    border: 3px solid rgb(168, 243, 131);
+    border-style: inset;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+    margin-left: 0px;
+  }
+  
+  div.desc1 {
+    padding: 15px;
+    text-align: center;
+    background-color: white;
+    color: #ff0000;
+    font-size: 14px;
+  }
+  div.desc2 {
+    padding: 15px;
+    text-align: center;
+    background-color: white;
+    color: #ff0000;
+    font-size: 14px;
+  }
+  div.desc3 {
+    padding: 15px;
+    text-align: center;
+    background-color: white;
+    color: #ff0000;
+    font-size: 14px;
+  }
+
+  /* -----------Skills----------- */
+
+  #Skills #head{
+    color: rgb(160, 95, 150);;
+   margin-left: 55px;
+   margin-top: 350px;
+   text-shadow: none;
+  }
+#Skills #im{
+    width: 300px;
+    margin-left: 1100px;
+    margin-top: 30px;
+}
+#Skills #prg{
+    text-shadow: none;
+    color: white;
+    font-size: 40px;
+    margin-top: -290px;
+}
+/* --------Resume----------- */
+
+#resume{
+    color: pink;
+    margin-top: 250px;
+  margin-left: 600px;
+    text-shadow: none;
+}   
+
+.Resume-button {
+    display: inline-block;
+    padding: 20px 30px;
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 650px;
+    font-size: 20px;
+    margin-top: 50px;
+
+}
+/* -------------Foter--------- */
+#contact {
+    color: pink;
+    margin-top: 90px;
+    margin-left: 610px;
+    text-shadow: none;
+    
+}
+.ul {
+    list-style: none;
+    padding: 0;
+    text-align: center; 
+  }
+  li {
+    display: inline-block; 
+    margin:  09px; 
+    margin-top: 20px;
+    font-size: 25px;
+  }
+
+.fa-envelope{
+    color:#5900ff73 ;
+    
+}
+#mail  {
+    color: #5900ff73;
+  
+  }
+.fa-linkedin-square{
+    color: #5900ff73;
+}
+.fa-github{
+    color: #5900ff73;
+}
+.fa-instagram{
+    color: #5900ff73;
+}
+
+
+@media (max-width: 600px) {
+
+    /* Overall layout adjustments */
+    body {
+      font-size: 14px; /* Adjust for smaller screens */
+    }
+    section {
+      margin-bottom: 20px; /* Add some spacing between sections */
+    }
+  
+    /* Header */
+    .header {
+      text-align: center; /* Center the logo and nav links */
+    }
+    nav img {
+      width: 40px; /* Scale down the logo */
+      margin-top: 15px; /* Reduce top margin */
+    }
+    .logo {
+      display: none; /* Hide the text logo for smaller screens */
+    }
+    .nav-links ul {
+      display: flex; /* Make nav links display horizontally */
+      flex-wrap: wrap; /* Wrap links to next line if needed */
+      justify-content: center; /* Center the links */
+    }
+    .nav-links li {
+      margin-right: 10px; /* Add spacing between links */
+    }
+  
+    /* Hero section */
+    .greetings {
+      font-size: 40px; /* Scale down the heading */
+      margin-top: -250px; /* Adjust positioning */
+      text-indent: 0; /* Remove text-indent */
+    }
+    .hi {
+      width: 100px; /* Scale down the image */
+      margin-right: 350px; /* Adjust positioning */
+      margin-top: -80px; /* Adjust positioning */
+    }
+    .Name {
+      font-size: 30px; /* Scale down the name */
+      margin-top: 10px; /* Adjust positioning */
+      text-indent: 0; /* Remove text-indent */
+    }
+    .namebelow {
+      margin-top: 10px; /* Adjust positioning */
+    }
+  
+    /* About section */
+    #about h1 {
+      margin-top: 150px; /* Adjust positioning */
+    }
+  
+    /* Education section */
+    #education h1 {
+      margin-top: 30px; /* Adjust positioning */
+    }
+    #school, #puc, #be {
+      margin-top: 20px; /* Reduce top margin */
+      text-align: center; /* Center the headings */
+    }
+    .gallery {
+      width: 100%; /* Make images take full width */
+      margin-left: 0; /* Remove left margin */
+    }
+    .desc1, .desc2, .desc3 {
+      text-align: left; /* Align descriptions to the left */
+    }
+  
+    /* Skills section */
+    #Skills #head {
+      margin-top: 200px; /* Adjust positioning */
+    }
+    #Skills #im {
+      width: 200px; /* Scale down the image */
+      margin-left: 0; /* Remove left margin */
+      margin-top: 15px; /* Adjust positioning */
+    }
+    #Skills #prg {
+      font-size: 30px; /* Scale down the text */
+      margin-top: -150px; /* Adjust positioning */
+    }
+  
+    /* Resume section */
+    #resume {
+      margin-top: 150px; /* Adjust positioning */
+      text-align: center; /* Center the heading */
+    }
+    .Resume-button {
+      margin-left: 0; /* Remove left margin */
+      margin-top: 30px; /* Adjust positioning */
+    }
+  
+    /* Footer section */
+    #contact {
+      text-align: center; /* Center the heading */
+    }
+    .ul {
+      text-align: center; /* Center the list items */
+    }
+    li {
+      margin-top: 10px; /* Adjust spacing between list items */
+    }
+  }
+
+
