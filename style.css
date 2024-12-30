@@ -176,10 +176,10 @@ div.gallery {
   /* -----------Skills----------- */
 
   #Skills #head{
-    color: rgb(160, 95, 150);;
-   margin-left: 55px;
-   margin-top: 350px;
-   text-shadow: none;
+    color: rgb(160, 95, 150);
+    margin-left: 55px;
+    margin-top: 350px;
+    text-shadow: none;
   }
 #Skills #im{
     width: 300px;
@@ -197,7 +197,7 @@ div.gallery {
 #resume{
     color: pink;
     margin-top: 250px;
-  margin-left: 600px;
+    margin-left: 600px;
     text-shadow: none;
 }   
 
